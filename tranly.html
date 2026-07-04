@@ -184,10 +184,10 @@ Chính thức tốt nghiệp đại học 🎓
 </div>
 <script>
 function openLetter(){
-document
-.getElementById("letter")
-.style
-.display="block";
+var letter=document.getElementById("letter");
+    if (letter) {
+        letter.style.display = "block";
+    }
 window.scrollTo({
 top:400,
 behavior:"smooth"

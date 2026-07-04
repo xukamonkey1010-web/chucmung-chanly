@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chúc Mừng Chân Lý Tốt Nghiệp</title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                font-family:Arial, sans-serif;
+                background:linear-gradient(135deg,
+                #fdf0ff
+                #f8f4ff,
+                #fff8e7
+                );
+                color:#333;
+            }
+            /*PHẦN MỞ ĐẦU*/
+            .hero{
+            font-size:50px;
+            color:#8a2be2;
+            }
+            .hero p{
+                font-size:22px;
+            }
+            /*NÚT*/
+            button{
+                background:#8a2be2;
+                color:white;
+                border:none;
+                padding:15px 30px;
+                border-radius:50px;
+                font-size:20px;
+                cursor:pointer;
+                transition:0.3s;
+            }
+            button:hover{
+                transform:scale(1.1);
+                background:#6f1dd1;
+            }
+            /*THƯ*/
+            .letter{
+                max-width:900px;
+                margin:auto;
+                background:white;
+                padding:40px;
+                border-radius:20px;
+                box-shadow:0 0 20px rgba(0,0,0,0.15);
+                display:none;
+                animation:fadeln 1s;
+            }
+            @keyframes fadeln{
+                from{
+                    opacity:0;
+                    transform:translateY(30px);
+                }
+                to{
+                    opacity:1;
+                    transform:translateY(0);
+                }
+            }
+            .letter h2{
+                text-align:center;
+                color:#8a2be2;
+            }
+            .message{
+                font-size:22px;
+                line-height:1.8;
+            }
+            /*TIMELINE*/
+            .timeline{
+                margin-top:60px;
+            }
+            .timeline h2{
+                text-align:center;
+            }
+            .item{
+                border-left:4px solid #8a2be2;
+                padding-left:20px;
+                margin:25px 0;
+            }
+            .year{
+                font-weight:bold;
+                color:#8a2be2;
+                font-size:24px;
+            }
+            /*ALBUM*/
+            .gallery{
+                display:flex;
+                flex-wrap:wrap;
+                gap:15px;
+                justify-content:center;
+                margin:40px;
+            }
+            .gallery img{
+                width:280px;
+                border-radius:15px;
+                box-shadow:0 0 10px rgba(0,0,0,0.2);
+                transition:0.3s;
+            }
+            .gallery img:hover{
+                transform:scale(1.05);
+            }
+            /*CHỮ KÝ*/
+            .signature{
+                text-align:right;
+                margin-top:50px;
+                font-size:24px;
+                color:#8a2be2;
+            }
+            /*PHÁO GIẤY*/
+            .confetti{
+                position:fixed;
+                width:10px;
+                height:10px;
+                top:-10px;
+                animation:fall linear infinite;
+            }
+            @keyframes fall{
+                from{
+                    transform:translateY(-10px);
+                }
+                to{
+                    transform:translateY(110vh);
+                }
+            }
+            </style>
+            </head>
+            <body>
+                <div class="hero">
+                    <h1>🎓Chúc mừng Chân Lý🎓</h1>
+                    <p>
+                        Một lá thư nhỏ từ Ngân Nguyễn - Bé Cá🐟
+                        </p>
+                        <button onclick="openLetter()">
+                            💌MỞ THƯ
+                            </button>
+                            </div>
+                            <div class="letter"id="letter">
+                                <h2>Chúc Mừng Chân Lý Tốt Nghiệp Đại Học️🎉
+                                </h2>
+                                <div class="message">
+                                    Chúc mừng Chân Lý tốt nghiệp đại học.🌷
+                                    <br><br>
+                                    4 năm đại học qua là hành trình khổ luyện vất vả, nhưng cũng là khoảng thời gian giúp cậu tích luỹ thật nhiều kiến thức, kỹ năng và trải nghiệm quý giá. 
+                                    <br><br>
+                                    Nhân ngày Chân Lý tốt nghiệp đại học, cũng nhân dịp kỷ niệm 4 năm chơi chung, Ngân Nguyễn - Bé Cá chúc cậu chân cứng đá mềm, vững bước trên con đường phía trước, luôn tự tin vào những lựa chọn của bản thân và thành công trong mọi việc.
+                                    <br><br>
+                                    Cảm ơn vì đã đồng hành cùng nhau suốt những năm tháng thanh xuân đẹp nhất.
+                                    <br><br>
+                                    Thương 💖
+                                </div>
+                                <div class="signature">
+                                    Ngân Nguyễn - Bé Cá 🐟
+                                </div>
+                                <div class="timeline">
+                                    <h2>⏳Hành Trình 4 năm</h2>
+                                </div>
+                                <div class="item">
+  <div class="year">Năm 1</div>
+Lần đầu gặp nhau, bắt đầu hành trình đại học.
+</div>
+<div class="item">
+<div class="year">Năm 2</div>
+Những ngày học tập, hoạt động và áp lực thi cử.
+</div>
+<div class="item">
+<div class="year">Năm 3</div>
+Trưởng thành hơn, hiểu bản thân hơn.
+</div>
+<div class="item">
+<div class="year">Năm 4</div>
+Chính thức tốt nghiệp đại học 🎓
+</div>
+</div>
+<h2>📸 Album Kỷ Niệm</h2>
+<div class="gallery">
+<img src="anh1.jpg">
+<img src="anh2.jpg">
+<img src="anh3.jpg">
+<img src="anh4.jpg">
+</div>
+</div>
+<script>
+function openLetter(){
+document
+.getElementById("letter")
+.style
+.display="block";
+window.scrollTo({
+top:400,
+behavior:"smooth"
+});
+}
+/* TẠO PHÁO GIẤY */
+for(let i=0;i<60;i++){
+let confetti=document.createElement("div");
+confetti.className="confetti";
+confetti.style.left=Math.random()*100+"vw";
+confetti.style.background=
+hsl(${Math.random()*360},100%,60%);
+confetti.style.animationDuration=
+(Math.random()*5+3)+"s";
+document.body.appendChild(confetti);
+}
+</script>
+</body>
+</html>

@@ -138,8 +138,7 @@
                             </button>
                             </div>
                             <div class="letter" id="letter">
-                                <h2>Chúc Mừng Chân Lý Tốt Nghiệp Đại Học️🎉
-                                </h2>
+                                <h2>Chúc Mừng Chân Lý Tốt Nghiệp Đại Học️️🎉</h2>
                                 <div class="message">
                                     Chúc mừng Chân Lý tốt nghiệp đại học.🌷
                                     <br><br>
@@ -184,26 +183,25 @@ Chính thức tốt nghiệp đại học 🎓
 </div>
 <script>
 function openLetter(){
-var letter=document.getElementById("letter");
+var letter = document.getElementById("letter");
     if (letter) {
         letter.style.display = "block";
     }
 window.scrollTo({
-top:400,
-behavior:"smooth"
+top:500,
+behavior: "smooth"
 });
 }
 /* TẠO PHÁO GIẤY */
 for(let i=0;i<60;i++){
-let confetti=document.createElement("div");
-confetti.className="confetti";
-confetti.style.left=Math.random()*100+"vw";
-confetti.style.background=
-hsl(${Math.random()*360},100%,60%);
-confetti.style.animationDuration=
-(Math.random()*5+3)+"s";
+let confetti = document.createElement("div");
+confetti.className = "confetti";
+confetti.style.left = Math.random()*100+"vw";
+confetti.style.background =  'hsl(${Math.random()*360},100%,60%)';
+confetti.style.animationDuration = (Math.random()*5+3)+"s";
 document.body.appendChild(confetti);
 }
+    }
 </script>
 </body>
 </html>
